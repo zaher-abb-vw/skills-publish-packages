@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: echo1 
-        run : sudo ls /var/lib/docker/tmp/buildkit-mount914467676  
       - name: echo 
         run : sudo ls /var/lib/docker/tmp/buildkit-mount914467676/Dockerfile
       # Add your test steps here if needed...
